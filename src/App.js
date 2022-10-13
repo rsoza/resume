@@ -1,9 +1,9 @@
 import "./App.css";
 import React from "react";
-import ParalaxToMain from "./components/Paralax";
+import Main from "./components/Main";
 
 function App() {
-  return <ParalaxToMain />;
+  return <Main />;
 }
 
 export default App;
