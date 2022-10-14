@@ -11,26 +11,37 @@ export default function Header() {
               HOME
             </a>
           </button>
+          |
           <button class="button">
             <a class="smoothscroll" href="#about">
               ABOUT
             </a>
           </button>
+          |
           <button class="button">
-            <a class="smoothscroll" href="#resume">
-              RESUME
+            <a class="smoothscroll" href="#work">
+              EXPERIENCE
             </a>
           </button>
+          |
           <button class="button">
             <a class="smoothscroll" href="#portfolio">
               PROJECTS
             </a>
           </button>
+          |
+          <button class="button">
+            <a class="smoothscroll" href="#contact">
+              CONTACT
+            </a>
+          </button>
         </div>
       </div>
-      <section id="home">
-        <img src="/gam.jpg" alt="gam" />
-      </section>
+      <div className="intro">
+        <section id="home">
+          <h1>Rebecca Soza</h1>
+        </section>
+      </div>
     </>
   );
 }

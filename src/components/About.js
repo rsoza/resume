@@ -6,7 +6,7 @@ export default function About() {
     <>
       <div className="main">
         <section id="about">
-          <h1>ABOUT</h1>
+          <h5>ABOUT</h5>
         </section>
         <p>
           Paragraphs are the building blocks of papers. Many students define
