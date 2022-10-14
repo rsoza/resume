@@ -1,56 +1,37 @@
-.container {
-    width: 100%;
-    color:rgb(82, 92, 66);
-  }
 .header {
-    top: 0px;
-    background-color: rgb(162, 169, 151);
-    text-align: center;
-    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
-    background-size: cover;
-    overflow: auto;
-    position: sticky;
-    margin: auto;
-    width: 60%;
-    padding: 2px;
-}
-.resume {
-    font-family:monospace;
-    color: #f6efe0;
-    position:relative;
-    
+  top: 0px;
+  background-color: rgb(162, 169, 151);
+  text-align: center;
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+  background-size: cover;
+  overflow: auto;
+  position: sticky;
+  margin: auto;
+  width: 60%;
+  padding: 2px;
 }
 a:link, a:visited, a:hover {
-    font-family:monospace;
-    background-color: transparent;
-    border:none;
-    color:#f6efe0;
-    margin: 0 auto;
-    display: inline;
-    transition-duration: 0.4s;
-    text-decoration: none;
-    font-size:large;
-  }
-  
-  a:active {
-    background-color: transparent;
-    border:none;
-    color:rgb(162, 169, 151);
-    margin: 0 auto;
-    display: inline;
-    transition-duration: 0.4s;
+  font-family:monospace;
+  background-color: transparent;
+  border:none;
+  color:#f6efe0;
+  margin: 0 auto;
+  display: inline;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size:large;
   }
 .button {
-    background-color: transparent;
-    border:none;
-    color:rgb(162, 169, 151);
-    margin: 0 auto;
-    display: inline;
-    transition-duration: 0.4s;
+  background-color: transparent;
+  border:none;
+  color:rgb(162, 169, 151);
+  margin: 0 auto;
+  display: inline;
+  transition-duration: 0.4s;
 }
 .button:hover {
-    background-color: rgb(131, 137, 122);
-    color:rgb(162, 169, 151);
+  background-color: rgb(131, 137, 122);
+  color:rgb(162, 169, 151);
 }
 .intro {
   font: 22px/1.1em 'opensans-bold', sans-serif;
@@ -70,7 +51,6 @@ a:link, a:visited, a:hover {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-
 h5{
   color:rgb(162, 169, 151);
   font-size: 1.6rem;
@@ -95,14 +75,15 @@ h5{
   font-weight: bold;
   text-align: center;
 }
-
 .resize {
-  width: 300px;
+  width: 200px;
   height: auto;
+  margin: 10px;
 }
 .school{
-  display: inline;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center
 }
 
 
