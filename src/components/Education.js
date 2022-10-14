@@ -4,7 +4,7 @@ import React from "react";
 export default function Education() {
   return (
     <>
-      <section id="education">
+      <section id="school">
         <h5>EDUCATION</h5>
       </section>
       <div class="school">

@@ -24,8 +24,8 @@ export default function Header() {
         </button>
         |
         <button class="button">
-          <a class="smoothscroll" href="#portfolio">
-            PROJECTS
+          <a class="smoothscroll" href="#school">
+            EDUCATION
           </a>
         </button>
         |

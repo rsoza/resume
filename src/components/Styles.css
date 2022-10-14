@@ -9,6 +9,7 @@
   margin: auto;
   width: 60%;
   padding: 2px;
+  
 }
 a:link, a:visited, a:hover {
   font-family:monospace;
@@ -34,12 +35,13 @@ a:link, a:visited, a:hover {
   color:rgb(162, 169, 151);
 }
 .intro {
+  width: 100%;
   font: 22px/1.1em 'opensans-bold', sans-serif;
-  margin: 0 auto 12px auto;
   text-align: center;
   overflow: hidden;
   color: #f6efe0;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+  background-image: url(../../images/header-background.jpg);
 }
 .h1 {
   letter-spacing: -1px;
