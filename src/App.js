@@ -1,9 +1,15 @@
 import "./App.css";
 import React from "react";
-import Main from "./components/Main";
+import About from "./components/About";
+import Header from "./components/Header";
 
 function App() {
-  return <Main />;
+  return (
+    <>
+      <Header />
+      <About />
+    </>
+  );
 }
 
 export default App;
