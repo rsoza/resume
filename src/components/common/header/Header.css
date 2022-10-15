@@ -1,0 +1,12 @@
+.header {
+    top: 0px;
+    background-color: rgb(162, 169, 151);
+    text-align: center;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    background-size: cover;
+    position: sticky;
+    margin: auto;
+    width: 60%;
+    padding: 2px;
+}
+  

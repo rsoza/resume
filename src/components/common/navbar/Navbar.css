@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+  outline: none;
+}
+a:link, a:visited, a:hover {
+  font-family:monospace;
+  background-color: transparent;
+  border:none;
+  color:#f6efe0;
+  margin: 0 auto;
+  display: inline;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size:large;
+  letter-spacing:2.5px;
+}

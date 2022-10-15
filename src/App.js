@@ -1,18 +1,22 @@
-import "./App.css";
 import React from "react";
-import About from "./components/About";
-import Header from "./components/Header";
-import Education from "./components/Education";
-import Work from "./components/Work";
-import Contact from "./components/Contact";
+import "./App.css";
+import {
+  Home,
+  Header,
+  About,
+  Education,
+  Contact,
+  Work,
+} from "./components/common";
 
 function App() {
   return (
     <>
       <Header />
+      <Home />
       <About />
-      <Work />
       <Education />
+      <Work />
       <Contact />
     </>
   );
