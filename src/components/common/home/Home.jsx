@@ -10,7 +10,12 @@ export default function About() {
             <h5>HOME</h5>
           </div>
         </section>
-        <h1>Rebecca Soza</h1>
+        <div className="intro">
+          <h1> Rebecca Soza</h1>
+          <span className="fire"> Computer Science </span>
+          <span> | </span>
+          <span className="fire"> Student </span>
+        </div>
       </div>
     </>
   );

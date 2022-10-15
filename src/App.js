@@ -12,8 +12,9 @@ import {
 function App() {
   return (
     <>
-      <Header />
       <Home />
+      <Header />
+
       <About />
       <Education />
       <Work />
