@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import { IconButton } from "@mui/material";
+import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
 
 export default function About() {
   return (
@@ -15,6 +17,19 @@ export default function About() {
           <span className="fire"> Computer Science </span>
           <span> | </span>
           <span className="fire"> Student </span>
+        </div>
+        <div className="arrow">
+          <a href="#about" className="navbar-item">
+            <IconButton aria-label="downArrow" sx={{}}>
+              <ArrowCircleDownIcon
+                sx={{
+                  "&:hover": { color: "#a2a997" },
+                  color: "#fff",
+                  fontSize: 40,
+                }}
+              />
+            </IconButton>
+          </a>
         </div>
       </div>
     </>
