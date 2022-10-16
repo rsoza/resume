@@ -1,7 +1,4 @@
 .navbar {
-  flex-direction: row;
-  align-items: center;
-  margin: auto;
 }
 .navbar-item {
   justify-content: center;
@@ -13,7 +10,6 @@
 }
 a:link, a:visited  {
   font-family:monospace;
-  background-color: transparent;
   border:none;
   margin: 0 auto;
   display: inline-flex;

@@ -29,3 +29,12 @@
   margin: 350px;
   opacity: 90%;
 }
+span.fire {
+  padding-bottom: 50px;
+  font-family: 'Amethysta', serif;
+  font-size: 2em;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: .2em;
+  text-shadow: 2px 2px #000000;
+}

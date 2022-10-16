@@ -1,26 +1,56 @@
 import React from "react";
 import "./About.css";
+import { Grid } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import Paper from "@mui/material/Paper";
+import DiscreteSlider from "./SkillBar";
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: "center",
+  color: theme.palette.text.secondary,
+}));
 
 export default function About() {
   return (
     <>
-      <div className="main">
-        <section id="about">
-          <h5>ABOUT</h5>
-        </section>
+      <section id="about">
+        <h5>ABOUT</h5>
+      </section>
+      <div className="row main">
         <h2 className="intro">Welcome</h2>
-        <p>
-          <div className="welcome">
-            <img className="selfImg" src="/images/self.jpg" alt="self" />
-            <div className="welcomeParagraph">
-              I am a Computer Science student at Wichita State University in
-              Kansas. This website is inspired by my hobbies and experiences to
-              show what I stand for.
-            </div>
-          </div>
+        <img className="selfImg" src="/images/self.png" alt="self" />
+        <p className="selfDis">
+          I am a Computer Science student at Wichita State University in Kansas.
         </p>
-        <div className="currently">
-          <h3>Currently</h3>
+
+        <div className="gridContainer">
+          <Grid container spacing={8}>
+            <Grid item xs={6}>
+              <Item>
+                <h3>Personal</h3>
+                <p></p>
+              </Item>
+            </Grid>
+            <Grid item xs={6}>
+              <Item>
+                <h3>Skills</h3>
+                <DiscreteSlider />
+              </Item>
+            </Grid>
+          </Grid>
+        </div>
+
+        <div className="pdf">
+          <a
+            href="files/resume.pdf"
+            title="Download CV"
+            class="button button-primary"
+          >
+            Download CV
+          </a>
         </div>
       </div>
     </>
