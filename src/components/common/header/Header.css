@@ -3,13 +3,13 @@ html{
 }
 .header {
     top: 0px;
-    background-color: #a2a997;
+    background-color: transparent;
     text-align: center;
     box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
     position: sticky;
     margin: auto;
     width: 60%;
     padding: 2px;
-    opacity: 90%;
+    opacity: 65%;
 }
   

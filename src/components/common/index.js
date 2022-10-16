@@ -5,6 +5,5 @@ import Contact from "./contact";
 import Education from "./education";
 import Work from "./work";
 import Home from "./home";
-import "./Styles.css";
 
 export { Home, Header, Navbar, About, Contact, Education, Work };

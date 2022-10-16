@@ -1,0 +1,21 @@
+.main{
+    background-color: transparent;
+}
+.selfImg {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+    
+}
+.welcome{
+    display: inline-flex;
+    letter-spacing:2.5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+.welcomeParagraph{
+    font-family: 'opensans-bold', sans-serif;
+    margin-top: 50px;
+    display: block;
+}

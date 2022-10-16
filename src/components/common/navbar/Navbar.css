@@ -1,6 +1,5 @@
 .navbar {
   flex-direction: row;
-  color: #544427;
   align-items: center;
   margin: auto;
 }
@@ -12,11 +11,10 @@
   text-transform: uppercase;
   outline: none;
 }
-a:link, a:visited, a:hover {
+a:link, a:visited  {
   font-family:monospace;
   background-color: transparent;
   border:none;
-  color:#f6efe0;
   margin: 0 auto;
   display: inline-flex;
   transition-duration: 0.4s;
@@ -25,4 +23,7 @@ a:link, a:visited, a:hover {
   letter-spacing:2.5px;
   margin-right: 15px;
   margin-left: 15px;
+}
+a:hover{
+  color:#A8BAA9; 
 }

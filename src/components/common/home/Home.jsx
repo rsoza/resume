@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { IconButton } from "@mui/material";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
-
+//TODO: ADD ICONS FOR GITHUB,EMAIL,HANDSHAKE
 export default function About() {
   return (
     <>
