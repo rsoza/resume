@@ -18,41 +18,43 @@ export default function About() {
     <>
       <section id="about">
         <h5>ABOUT</h5>
+
+        <div className="row main">
+          <h2>Welcome</h2>
+          <img className="selfImg" src="/images/self.png" alt="self" />
+          <p className="selfDis">
+            I am a Computer Science student at Wichita State University in
+            Kansas.
+          </p>
+
+          <div className="gridContainer">
+            <Grid container spacing={8}>
+              <Grid item xs={6}>
+                <Item>
+                  <h3>Personal</h3>
+                  <p></p>
+                </Item>
+              </Grid>
+              <Grid item xs={6}>
+                <Item>
+                  <h3>Skills</h3>
+                  <DiscreteSlider />
+                </Item>
+              </Grid>
+            </Grid>
+          </div>
+
+          <div className="pdf">
+            <a
+              href="files/resume.pdf"
+              title="Download CV"
+              class="button button-primary"
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
       </section>
-      <div className="row main">
-        <h2 className="intro">Welcome</h2>
-        <img className="selfImg" src="/images/self.png" alt="self" />
-        <p className="selfDis">
-          I am a Computer Science student at Wichita State University in Kansas.
-        </p>
-
-        <div className="gridContainer">
-          <Grid container spacing={8}>
-            <Grid item xs={6}>
-              <Item>
-                <h3>Personal</h3>
-                <p></p>
-              </Item>
-            </Grid>
-            <Grid item xs={6}>
-              <Item>
-                <h3>Skills</h3>
-                <DiscreteSlider />
-              </Item>
-            </Grid>
-          </Grid>
-        </div>
-
-        <div className="pdf">
-          <a
-            href="files/resume.pdf"
-            title="Download CV"
-            class="button button-primary"
-          >
-            Download CV
-          </a>
-        </div>
-      </div>
     </>
   );
 }

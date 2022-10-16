@@ -1,10 +1,13 @@
+#about{
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+}
 .main{
     background-color: transparent;
     max-width: 700px;
     margin-left: auto; 
     margin-right: auto;
     text-align: center;
-    margin-bottom: 3.6rem;
     position: relative;
 }
 .selfImg {
@@ -24,9 +27,8 @@
 .gridContainer{
     align-items: center;
 }
-span{
-    margin-left: 3px;
-    margin-right: 3px;
+span.css-qphqwn-MuiSlider-root{
+    margin-left: 30px;
 }
 .pdf{
     margin-top: 50px;
