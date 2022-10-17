@@ -17,8 +17,8 @@ function Navbar() {
         Experience
       </a>
       |
-      <a href="#school" className="navbar-item">
-        Education
+      <a href="#portfolio" className="navbar-item">
+        Projects
       </a>
       |
       <a href="#contact" className="navbar-item">
