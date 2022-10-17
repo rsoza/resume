@@ -108,3 +108,12 @@ p {
   text-rendering: optimizeLegibility;
   font-size: 0.83em;
 }
+a:link, a:visited  {
+  font-family:monospace;
+  transition-duration: 0.4s;
+  font-size:large;
+  letter-spacing:2.5px;
+}
+a:hover{
+  color:#A8BAA9; 
+}

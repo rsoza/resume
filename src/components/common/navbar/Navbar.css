@@ -8,18 +8,11 @@
   text-transform: uppercase;
   outline: none;
 }
-a:link, a:visited  {
-  font-family:monospace;
+.navbar-item:link, .navbar-item:visited  {
   border:none;
   margin: 0 auto;
   display: inline-flex;
-  transition-duration: 0.4s;
   text-decoration: none;
-  font-size:large;
-  letter-spacing:2.5px;
   margin-right: 15px;
   margin-left: 15px;
-}
-a:hover{
-  color:#A8BAA9; 
 }
