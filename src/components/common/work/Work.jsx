@@ -15,7 +15,6 @@ export default function Work() {
           <WorkTimeline />
           <br />
           <br />
-
           <h2 className="exp">Education</h2>
           <div className="row school">
             <div className="college">

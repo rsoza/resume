@@ -4,7 +4,9 @@ import "./Projects.css";
 function Projects() {
   return (
     <>
-      <section className="#portfolio"></section>
+      <section id="portfolio">
+        <h5>Projects</h5>
+      </section>
     </>
   );
 }
