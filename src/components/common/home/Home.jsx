@@ -1,19 +1,17 @@
 import React from "react";
 import "./Home.css";
-import { IconButton, Button } from "@mui/material";
+import { IconButton } from "@mui/material";
 import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 import PhotoIcon from "@mui/icons-material/Photo";
+import Tooltip from "@mui/material/Tooltip";
 
 export default function About() {
-  const showCredit = () => {
-    alert("me");
-  };
   return (
     <>
       <div className="home-block">
         <section id="home">
           <div className="photo">
-            <Button onClick={showCredit}>
+            <Tooltip title="Photo taken by me" placement="right" arrow>
               <PhotoIcon
                 sx={{
                   "&:hover": { color: "#8AB39F" },
@@ -21,7 +19,7 @@ export default function About() {
                   fontSize: 25,
                 }}
               />
-            </Button>
+            </Tooltip>
           </div>
           <div className="noshow">
             <h5>HOME</h5>
@@ -34,13 +32,15 @@ export default function About() {
         <div className="arrow">
           <a href="#about" className="navbar-item">
             <IconButton aria-label="downArrow">
-              <ArrowDropDownCircleIcon
-                sx={{
-                  "&:hover": { color: "#8AB39F" },
-                  color: "#F2E6CE",
-                  fontSize: 46,
-                }}
-              />
+              <Tooltip title="Click me" placement="top" arrow>
+                <ArrowDropDownCircleIcon
+                  sx={{
+                    "&:hover": { color: "#8AB39F" },
+                    color: "#F2E6CE",
+                    fontSize: 46,
+                  }}
+                />
+              </Tooltip>
             </IconButton>
           </a>
         </div>

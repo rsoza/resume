@@ -1,6 +1,6 @@
 #contact {
     background: #1D1D1F;
-    padding-bottom: 29rem;
+    padding-bottom: 17rem;
 }
 .contact-block {
     max-width: 700px;
@@ -8,6 +8,7 @@
     margin-right: auto;
     text-align: center;
     position: relative;
+    padding-top:10rem;
 }
 h2.con {
     color: #F2E6CE;

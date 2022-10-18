@@ -80,10 +80,8 @@ h5 {
   line-height: 1.875;
   margin-bottom: 0.3rem;
   letter-spacing: .4rem;
-  font-size: 18px;
   line-height: 30px;
   font-family: 'opensans-bold', sans-serif;
-  font-weight: normal;
   -webkit-font-variant-ligatures: common-ligatures;
   -moz-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
@@ -94,6 +92,24 @@ h5 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+}
+h6 {
+  color: #606362;
+  text-align: center;
+  font-size: 1.6rem;
+  font-size: 12px;
+  font-family: 'Amethysta', serif;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+h7 {
+  color: #606362;
+  text-align: center;
+  font-size: 1.6rem;
+  font-size: 16px;
+  font-family: 'Amethysta', serif;
+  font-weight: 100;
 }
 a:link, a:visited  {
   font-family:monospace;

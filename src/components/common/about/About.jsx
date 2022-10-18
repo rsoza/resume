@@ -34,12 +34,15 @@ export default function About() {
             <Grid container spacing={8}>
               <Grid item xs={6}>
                 <Item>
-                  <h3>Hardware</h3>
-                  <p>
-                    Windows
-                    <br />
-                    Linux: SUSE, RHEL
-                  </p>
+                  <h3>Hobbies</h3>
+                  <h6>
+                    The more you practice, the better you get, the more freedom
+                    you have to create. -Jocko Willink
+                  </h6>
+                  <h7>
+                    I believe in always developing not only your mind, but also
+                    your body. My hobbies are weight training and potery.
+                  </h7>
                 </Item>
               </Grid>
               <Grid item xs={6}>

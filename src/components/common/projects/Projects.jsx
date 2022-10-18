@@ -10,6 +10,7 @@ function Projects() {
         <div className="row project">
           <h5>Projects</h5>
           <h2>My creations</h2>
+          <h6>This page is a work in progress.</h6>
           <p className="cards">
             <NasaCard />
             <ChecklistCard />
