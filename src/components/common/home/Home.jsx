@@ -4,11 +4,14 @@ import { IconButton } from "@mui/material";
 import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
 import PhotoIcon from "@mui/icons-material/Photo";
 import Tooltip from "@mui/material/Tooltip";
+import useWindowDimensions from "../../WindowsDim.js";
 
 export default function About() {
+  const { height, width } = useWindowDimensions();
+
   return (
     <>
-      <div className="home-block">
+      <div className="home-block" sx={{ height: { height }, width: { width } }}>
         <section id="home">
           <div className="photo">
             <Tooltip title="Photo taken by me" placement="right" arrow>
