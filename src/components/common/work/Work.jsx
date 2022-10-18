@@ -6,7 +6,7 @@ import "./Work.css";
 export default function Work() {
   return (
     <>
-      <section id="work">
+      <section id="experience">
         <h5>EXPERIENCE</h5>
 
         <div className="row experience">

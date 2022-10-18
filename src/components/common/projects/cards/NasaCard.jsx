@@ -12,7 +12,7 @@ export default function NasaCard() {
         <CardMedia
           component="img"
           height="140"
-          image="/images/nasa-hackathon.jpg"
+          image="/images/nasa-hackathon.JPG"
           alt="hackathon"
         />
         <CardContent>

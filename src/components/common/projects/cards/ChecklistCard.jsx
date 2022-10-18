@@ -12,7 +12,7 @@ export default function ChecklistCard() {
         <CardMedia
           component="img"
           height="140"
-          image="/images/checklist.jpg"
+          image="/images/checklist.JPG"
           alt="checklist"
         />
         <CardContent>

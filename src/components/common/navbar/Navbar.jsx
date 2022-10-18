@@ -13,7 +13,7 @@ function Navbar() {
         About
       </a>
       |
-      <a href="#work" className="navbar-item">
+      <a href="#experience" className="navbar-item">
         Experience
       </a>
       |
