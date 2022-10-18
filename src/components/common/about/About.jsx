@@ -23,21 +23,29 @@ export default function About() {
           <h2>Welcome</h2>
           <img className="selfImg" src="/images/self.png" alt="self" />
           <p className="selfDis">
-            I am a Computer Science student at Wichita State University in
-            Kansas.
+            My name is Rebecca Soza and I am pursuing a B.S. in Computer Science
+            at Wichita State University. Although most of my skills are in web
+            development, my primary interest is Software Development. This
+            junior year I am focusing on strengthening my skills in python and
+            learning Go language.
           </p>
 
           <div className="gridContainer">
             <Grid container spacing={8}>
               <Grid item xs={6}>
                 <Item>
-                  <h3>Personal</h3>
-                  <p></p>
+                  <h3>Hardware</h3>
+                  <p>
+                    Windows
+                    <br />
+                    Linux: SUSE, RHEL
+                  </p>
                 </Item>
               </Grid>
               <Grid item xs={6}>
                 <Item>
                   <h3>Skills</h3>
+                  <p></p>
                   <DiscreteSlider />
                 </Item>
               </Grid>
@@ -50,7 +58,7 @@ export default function About() {
               title="Download CV"
               class="button button-primary"
             >
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>

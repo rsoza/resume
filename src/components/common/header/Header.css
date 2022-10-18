@@ -6,6 +6,8 @@
     margin: auto;
     width: 60%;
     padding: 2px;
+    z-index: 100;
     flex:1;
+    background-color:#606362;
 }
   

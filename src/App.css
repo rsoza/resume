@@ -5,10 +5,11 @@ html {
   scroll-behavior: smooth;
 }
 body{
-  background-color: transparent;
+  background-color: #F2E6CE;
   justify-content: center;
 }
 h1 {
+  color:#F2E6CE;
   padding-top: 70px;
   background-color: transparent;
   background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
@@ -25,6 +26,7 @@ h1 {
   text-shadow: 1px 1px #000000;
 }
 h2 {
+  color: #1D1D1F;
   background-color: transparent;
   background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
   background-image: -moz-linear-gradient(top, #111, #0c0c0c);
@@ -35,9 +37,10 @@ h2 {
   line-height: 1.4em;
   text-transform: uppercase;
   letter-spacing: .3em;
-  text-shadow: 1px 1px #000000;
+  text-shadow: 1px 1px #606362;
 }
 h3 {
+  color:#1D1D1F;
   padding-top: 40px;
   background-color: transparent;
   background-image: -webkit-linear-gradient(top, #111, #0c0c0c);
@@ -51,7 +54,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: .3em;
   white-space:nowrap;
-  text-shadow: -1px -1px #000000;
+  text-shadow: 0.5px 0.5px #000000;
   margin-top: 2px;
   padding-top: 10px;
 }
@@ -68,10 +71,10 @@ h4 {
   letter-spacing: .3em;
   white-space:nowrap;
   text-shadow: -1px -1px #000000;
-  
   padding-top: 10px;
 }
 h5 {
+  color: #8AB39F;
   text-align: center;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -92,22 +95,6 @@ h5 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
-p {
-  font-weight: normal;
-  -webkit-font-variant-ligatures: common-ligatures;
-  -moz-font-variant-ligatures: common-ligatures;
-  font-variant-ligatures: common-ligatures;
-  text-rendering: optimizeLegibility;
-  font-size: 1em;
-  font-weight: bold;
-  font-family: 'opensans-bold', sans-serif;
-  font-weight: normal;
-  -webkit-font-variant-ligatures: common-ligatures;
-  -moz-font-variant-ligatures: common-ligatures;
-  font-variant-ligatures: common-ligatures;
-  text-rendering: optimizeLegibility;
-  font-size: 0.83em;
-}
 a:link, a:visited  {
   font-family:monospace;
   transition-duration: 0.4s;
@@ -115,5 +102,15 @@ a:link, a:visited  {
   letter-spacing:2.5px;
 }
 a:hover{
-  color:#A8BAA9; 
+  color:#8AB39F; 
+}
+span{
+  font-family: 'Amethysta', serif;
+  text-transform: lowercase;
+  vertical-align: middle;
+}
+p {
+  font-size: 18px;
+  font-family: 'Amethysta', serif;
+  color: #606362;
 }

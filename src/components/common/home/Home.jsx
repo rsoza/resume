@@ -1,31 +1,44 @@
 import React from "react";
 import "./Home.css";
-import { IconButton } from "@mui/material";
-import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
-//TODO: ADD ICONS FOR GITHUB,EMAIL,HANDSHAKE
+import { IconButton, Button } from "@mui/material";
+import ArrowDropDownCircleIcon from "@mui/icons-material/ArrowDropDownCircle";
+import PhotoIcon from "@mui/icons-material/Photo";
+
 export default function About() {
+  const showCredit = () => {
+    alert("me");
+  };
   return (
     <>
       <div className="home-block">
         <section id="home">
+          <div className="photo">
+            <Button onClick={showCredit}>
+              <PhotoIcon
+                sx={{
+                  "&:hover": { color: "#8AB39F" },
+                  color: "#F2E6CE",
+                  fontSize: 25,
+                }}
+              />
+            </Button>
+          </div>
           <div className="noshow">
             <h5>HOME</h5>
           </div>
         </section>
         <div className="intro">
           <h1> Rebecca Soza</h1>
-          <span className="fire"> Computer Science </span>
-          <span> | </span>
-          <span className="fire"> Student </span>
+          <span className="fire"> Computer Science | Student </span>
         </div>
         <div className="arrow">
           <a href="#about" className="navbar-item">
-            <IconButton aria-label="downArrow" sx={{}}>
-              <ArrowCircleDownIcon
+            <IconButton aria-label="downArrow">
+              <ArrowDropDownCircleIcon
                 sx={{
-                  "&:hover": { color: "#a2a997" },
-                  color: "#fff",
-                  fontSize: 40,
+                  "&:hover": { color: "#8AB39F" },
+                  color: "#F2E6CE",
+                  fontSize: 46,
                 }}
               />
             </IconButton>

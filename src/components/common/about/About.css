@@ -12,33 +12,40 @@
 .selfImg {
     height: 12rem;
     width: 12rem;
-    margin: 0rem 0rem 2rem 2rem;
+    margin: 2rem 2rem 2rem 2rem;
     float: left;
 }
-.selfDis {
+p.selfDis {
     text-align: left;
     padding-left: 13rem;
-    font-size: 1.2rem;
+    font-size: 21px;
     line-height: 1.7;
     margin-top: 4rem;
-    font-weight: 450;
+    font-weight: 500;
+    color: #606362;
+    font-family: 'Amethysta', serif;
 }
 .gridContainer{
     align-items: center;
 }
 span.css-qphqwn-MuiSlider-root{
     margin-left: 30px;
+
+}
+span.css-qphqwn-MuiSlider-root:hover{
+    color:#8AB39F;
 }
 .pdf{
     margin-top: 50px;
 }
 .button{
     font: 16px/30px 'Amethysta', serif;
-    background: #11ABB0;
+    background: #8AB39F;
     display: inline-block;
     text-decoration: none;
     letter-spacing: 0;
-    color: #fff;
+    color: #1D1D1F;
+    text-shadow: -1px -1px #606362;
     padding: 12px 20px;
     margin-bottom: 18px;
     border: none;
@@ -53,4 +60,7 @@ span.css-qphqwn-MuiSlider-root{
     -webkit-border-radius: 3px;
     -khtml-border-radius: 3px;
     border-radius: 3px;
+}
+span.css-1ami7lv-MuiTimelineConnector-root{
+    background-color:#F2E6CE;
 }

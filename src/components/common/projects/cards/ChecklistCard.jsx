@@ -20,18 +20,19 @@ export default function ChecklistCard() {
             Checklist in Python
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            This Checklist was inspried by the incoming employees who had to
+            work on hardware at Netapp. I created this for a 2 week sprint
+            called Regression where hardware was updated.
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
         <Button
-          href="https://2022.spaceappschallenge.org/challenges/2022-challenges/track-the-iss/details"
+          href="https://github.com/rsoza/checklist_table"
           size="small"
-          color="primary"
+          sx={{ color: "#1D1D1F" }}
         >
-          Challenge
+          GitHub
         </Button>
       </CardActions>
     </Card>

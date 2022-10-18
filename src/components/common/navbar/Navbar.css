@@ -1,4 +1,7 @@
 .navbar {
+  background-color: transparent;
+  color: #F2E6CE;
+  position: sticky;
 }
 .navbar-item {
   justify-content: center;
@@ -7,6 +10,7 @@
   text-decoration: inherit;
   text-transform: uppercase;
   outline: none;
+  color:#F2E6CE;
 }
 .navbar-item:link, .navbar-item:visited  {
   border:none;

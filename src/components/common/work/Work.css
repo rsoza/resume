@@ -6,11 +6,18 @@
     position: relative;
 }
 #work {
-    background: #161415;
+    background: #1D1D1F;
     padding-bottom: 15rem;
 }
-h2.exp, p.creds, .college{
-    color: white;
+h2.exp{
+    color:#F2E6CE;
+}
+p.creds, .college{
+    color: #606362;
+    font-weight: bold;
+    font-family: 'Amethysta', serif;
+    font-weight: normal;
+    font-size: 20px;
 }
 .css-jb1ygz-MuiTypography-root{
     font-family: 'Amethysta', serif;
@@ -18,12 +25,16 @@ h2.exp, p.creds, .college{
     font-size: 1rem;
 }
 h4.col{
-    color:red;
+    color:#8AB39F;
     margin: auto;
 }
 h4.col:hover{
-    color: white;
+    color: #F2E6CE;
 }
 .school{
     display: flex;
+}
+.college{
+    margin-right: 30px;
+    margin-left: 30px;
 }

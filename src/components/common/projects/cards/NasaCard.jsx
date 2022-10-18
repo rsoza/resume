@@ -20,8 +20,8 @@ export default function NasaCard() {
             NASA Hackathon 2022
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            This fun challenge was completed within 48 hours by a team of five.
+            This app is to show a user where the ISS is in real time.
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -29,9 +29,16 @@ export default function NasaCard() {
         <Button
           href="https://2022.spaceappschallenge.org/challenges/2022-challenges/track-the-iss/details"
           size="small"
-          color="primary"
+          sx={{ color: "#1D1D1F" }}
         >
           Challenge
+        </Button>
+        <Button
+          href="https://github.com/NASA-Spaceapps-challenjours/iss-webapp"
+          size="small"
+          sx={{ color: "#1D1D1F" }}
+        >
+          GitHub
         </Button>
       </CardActions>
     </Card>

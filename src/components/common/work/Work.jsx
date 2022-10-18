@@ -11,7 +11,7 @@ export default function Work() {
 
         <div className="row experience">
           <h2 className="exp">Work Timeline</h2>
-          <p className="creds">This starts from oldest to latest </p>
+          <p className="creds">Read down the line to view my journey.</p>
           <WorkTimeline />
           <br />
           <br />
