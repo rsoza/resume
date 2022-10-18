@@ -6,8 +6,6 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import { IconButton, Tooltip } from "@mui/material";
 
 export default function Contact() {
-  const [isEmail, setEmail] = useState(false);
-
   return (
     <>
       <section id="contact">
