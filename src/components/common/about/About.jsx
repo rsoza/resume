@@ -48,7 +48,6 @@ export default function About() {
               <Grid item xs={6}>
                 <Item>
                   <h3>Skills</h3>
-                  <p></p>
                   <DiscreteSlider />
                 </Item>
               </Grid>
