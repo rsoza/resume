@@ -8,14 +8,11 @@ import {
   Contact,
   Experience,
 } from "./components/common";
-import useWindowDimensions from "./components/WindowsDim";
 
 function App() {
-  const { height, width } = useWindowDimensions();
-
   return (
     <>
-      <div id="root" sx={{ height: { height }, width: { width } }}></div>
+      <div id="root"></div>
       <Home />
       <Header />
       <About />
