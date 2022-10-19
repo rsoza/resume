@@ -7,16 +7,13 @@ body{
 }
 h1 {
   color:#F2E6CE;
-  padding-top: 70px;
   background-color: transparent;
-  font-size: 100%;
-  font-size: 4rem;
+  font-size: 4vw;
   font-family: 'Amethysta', serif;
   text-align: center;
   line-height: 1.4em;
   text-transform: uppercase;
   letter-spacing: .3em;
-  white-space:nowrap;
   text-shadow: 1px 1px #000000;
 }
 h2 {
@@ -81,7 +78,7 @@ h6 {
   font-weight: 100;
   margin-bottom: 10px;
 }
-h7 {
+.h7 {
   color: #606362;
   text-align: center;
   font-size: 1.6rem;

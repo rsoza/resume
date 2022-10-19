@@ -38,10 +38,10 @@ export default function About() {
                     The more you practice, the better you get, the more freedom
                     you have to create. -Jocko Willink
                   </h6>
-                  <h7>
+                  <div className="h7">
                     I believe in always developing not only your mind, but also
                     your body. My hobbies are weight training and potery.
-                  </h7>
+                  </div>
                 </Item>
               </Grid>
               <Grid item xs={6}>
@@ -58,7 +58,7 @@ export default function About() {
             <a
               href="files/resume.pdf"
               title="Download CV"
-              class="button button-primary"
+              className="button button-primary"
             >
               Download Resume
             </a>
