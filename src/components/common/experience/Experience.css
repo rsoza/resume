@@ -32,7 +32,7 @@ h4.col:hover{
     color: #F2E6CE;
 }
 .school{
-    display: flex;
+    display: relative;
 }
 .college{
     margin-right: 30px;

@@ -49,7 +49,7 @@ export default function NonLinearSlider() {
 
   return (
     <Box>
-      <Typography id="Languages" gutterBottom sx={{ width: 200 }}>
+      <Typography id="Languages" gutterBottom>
         Language: {valueLabelFormatLang(lang)}
       </Typography>
       <div className="slide">
@@ -71,7 +71,7 @@ export default function NonLinearSlider() {
           marks
         />
       </div>
-      <Typography id="Frameworks" gutterBottom sx={{ width: 200 }}>
+      <Typography id="Frameworks" gutterBottom>
         Framework: {valueLabelFormatFrame(frame)}
       </Typography>
       <div className="slide">

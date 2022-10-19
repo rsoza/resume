@@ -30,7 +30,7 @@ export default function About() {
           </p>
 
           <div className="gridContainer">
-            <Grid container spacing={8}>
+            <Grid container spacing={3}>
               <Grid item xs={6}>
                 <Item>
                   <h3>Hobbies</h3>

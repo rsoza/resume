@@ -9,7 +9,8 @@ h1 {
   color:#F2E6CE;
   padding-top: 70px;
   background-color: transparent;
-  font-size: 4em;
+  font-size: 100%;
+  font-size: 4rem;
   font-family: 'Amethysta', serif;
   text-align: center;
   line-height: 1.4em;
