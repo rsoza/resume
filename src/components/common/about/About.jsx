@@ -40,7 +40,8 @@ export default function About() {
                   </h6>
                   <div className="h7">
                     I believe in always developing not only your mind, but also
-                    your body. My hobbies are weight training and potery.
+                    your body. My hobbies are weight training, photography and
+                    potery.
                   </div>
                 </Item>
               </Grid>
