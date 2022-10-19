@@ -1,6 +1,6 @@
 .home-block{
   width: 100%;
-  background: #161415 url('../../../images/header-background1.jpg') no-repeat center center fixed;
+  background: #161415 url('../../../images/header-background1.jpg') no-repeat top center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,7 +15,7 @@
 }
 .arrowButton{
   align-items: center;
-  margin-top: 25%;
+  margin-top: 30%;
 }
 span.fire{
   padding-bottom: 50px;
