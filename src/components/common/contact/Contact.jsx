@@ -33,7 +33,14 @@ export default function Contact() {
               </Tooltip>
             </IconButton>
           </a>
-          <IconButton aria-label="email">
+
+          <IconButton
+            aria-label="email"
+            onClick={() => {
+              navigator.clipboard.writeText("bsoza93@gmail.com");
+              alert("bsoza93@gmail.com has been copied to your clipboard");
+            }}
+          >
             <Tooltip title="Email" placement="bottom" arrow>
               <EmailIcon
                 sx={{
@@ -44,6 +51,7 @@ export default function Contact() {
               />
             </Tooltip>
           </IconButton>
+
           <a href="https://github.com/rsoza" alt="git">
             <IconButton aria-label="git">
               <Tooltip title="GitHub" placement="bottom" arrow>
