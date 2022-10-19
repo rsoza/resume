@@ -48,7 +48,7 @@ export default function NonLinearSlider() {
   };
 
   return (
-    <Box sx={{ width: 250 }}>
+    <Box>
       <Typography id="Languages" gutterBottom sx={{ width: 200 }}>
         Language: {valueLabelFormatLang(lang)}
       </Typography>
