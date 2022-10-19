@@ -18,7 +18,6 @@ export default function About() {
     <>
       <section id="about">
         <h5>ABOUT</h5>
-
         <div className="row main">
           <h2>Welcome</h2>
           <img className="selfImg" src="/images/self.png" alt="self" />
