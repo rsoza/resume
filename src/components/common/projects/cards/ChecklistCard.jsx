@@ -20,9 +20,8 @@ export default function ChecklistCard() {
             Checklist in Python
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            This Checklist was inspried by the incoming employees who had to
-            work on hardware at Netapp. I created this for a 2 week sprint
-            called Regression where hardware was updated.
+            Created this for a 2 week sprint called Regression where hardware
+            needs to be updated.
           </Typography>
         </CardContent>
       </CardActionArea>
