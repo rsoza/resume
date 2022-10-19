@@ -28,12 +28,8 @@ p.selfDis {
 .gridContainer{
     align-items: center;
 }
-span.css-qphqwn-MuiSlider-root{
-    margin-left: 30px;
-
-}
-span.css-qphqwn-MuiSlider-root:hover{
-    color:#8AB39F;
+.slide{
+    padding-left: 20px;
 }
 .pdf{
     margin-top: 50px;
@@ -51,14 +47,6 @@ span.css-qphqwn-MuiSlider-root:hover{
     border: none;
     cursor: pointer;
     height: auto;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -khtml-border-radius: 3px;
     border-radius: 3px;
 }
 span.css-1ami7lv-MuiTimelineConnector-root{

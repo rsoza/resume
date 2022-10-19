@@ -9,7 +9,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import WorkIcon from "@mui/icons-material/Work";
 import Typography from "@mui/material/Typography";
-import "./Work.css";
+import "./Experience.css";
 
 export default function WorkTimeline() {
   const head1 = {

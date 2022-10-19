@@ -2,6 +2,7 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Slider from "@mui/material/Slider";
+import "./About.css";
 
 function valueLabelFormatLang(lang) {
   const units = [
@@ -51,43 +52,47 @@ export default function NonLinearSlider() {
       <Typography id="Languages" gutterBottom sx={{ width: 200 }}>
         Language: {valueLabelFormatLang(lang)}
       </Typography>
-      <Slider
-        sx={{
-          "&:hover": { color: "#a2a997" },
-          color: "black",
-          fontSize: 40,
-        }}
-        lang={lang}
-        min={0}
-        step={20}
-        max={100}
-        getAriaValueText={valueLabelFormatLang}
-        valueLabelFormat={valueLabelPercentageLang}
-        onChange={handleChangeLang}
-        valueLabelDisplay="auto"
-        aria-labelledby="non-linear-slider"
-        marks
-      />
+      <div className="slide">
+        <Slider
+          sx={{
+            "&:hover": { color: "#a2a997" },
+            color: "black",
+            fontSize: 40,
+          }}
+          lang={lang}
+          min={0}
+          step={20}
+          max={100}
+          getAriaValueText={valueLabelFormatLang}
+          valueLabelFormat={valueLabelPercentageLang}
+          onChange={handleChangeLang}
+          valueLabelDisplay="auto"
+          aria-labelledby="non-linear-slider"
+          marks
+        />
+      </div>
       <Typography id="Frameworks" gutterBottom sx={{ width: 200 }}>
         Framework: {valueLabelFormatFrame(frame)}
       </Typography>
-      <Slider
-        sx={{
-          "&:hover": { color: "#a2a997" },
-          color: "black",
-          fontSize: 40,
-        }}
-        value={frame}
-        min={0}
-        step={25}
-        max={100}
-        getAriaValueText={valueLabelFormatFrame}
-        valueLabelFormat={valueLabelPercentageFrame}
-        onChange={handleChangeFrame}
-        valueLabelDisplay="auto"
-        aria-labelledby="non-linear-slider"
-        marks
-      />
+      <div className="slide">
+        <Slider
+          sx={{
+            "&:hover": { color: "#a2a997" },
+            color: "black",
+            fontSize: 40,
+          }}
+          value={frame}
+          min={0}
+          step={25}
+          max={100}
+          getAriaValueText={valueLabelFormatFrame}
+          valueLabelFormat={valueLabelPercentageFrame}
+          onChange={handleChangeFrame}
+          valueLabelDisplay="auto"
+          aria-labelledby="non-linear-slider"
+          marks
+        />
+      </div>
     </Box>
   );
 }

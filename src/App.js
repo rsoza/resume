@@ -4,9 +4,9 @@ import {
   Home,
   Header,
   About,
-  Work,
   Projects,
   Contact,
+  Experience,
 } from "./components/common";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Home />
       <Header />
       <About />
-      <Work />
+      <Experience />
       <Projects />
       <Contact />
     </>

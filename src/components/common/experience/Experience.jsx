@@ -1,7 +1,7 @@
 import React from "react";
 import WorkTimeline from "./Timeline";
 import { Button } from "@mui/material";
-import "./Work.css";
+import "./Experience.css";
 
 export default function Work() {
   return (
