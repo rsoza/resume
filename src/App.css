@@ -19,7 +19,7 @@ h1 {
 h2 {
   color: #1D1D1F;
   background-color: transparent;
-  font-size: 3em;
+  font-size: 7vh;
   font-family: 'Amethysta', serif;
   line-height: 1.4em;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ h3 {
   color:#1D1D1F;
   padding-top: 40px;
   background-color: transparent;
-  font-size: 1.5em;
+  font-size: 1.6vw;
   font-family: 'Amethysta', serif;
   text-align: center;
   line-height: 1.4em;
@@ -43,7 +43,7 @@ h3 {
 }
 h4 {
   background-color: transparent;
-  font-size: 1.2em;
+  font-size: 1.8vw;
   font-family: 'Amethysta', serif;
   line-height: 1.4em;
   text-transform: uppercase;
@@ -55,7 +55,7 @@ h4 {
 h5 {
   color: #8AB39F;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1vh;
   line-height: 1.875;
   margin-bottom: 0.3rem;
   letter-spacing: .4rem;
@@ -71,7 +71,7 @@ h5 {
 h6 {
   color: #606362;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.5vh;
   font-size: 12px;
   font-family: 'Amethysta', serif;
   font-style: italic;
@@ -81,7 +81,7 @@ h6 {
 .h7 {
   color: #606362;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.7vh;
   font-size: 16px;
   font-family: 'Amethysta', serif;
   font-weight: 100;
@@ -101,7 +101,7 @@ span{
   vertical-align: middle;
 }
 p {
-  font-size: 18px;
+  font-size: 4.5vh;
   font-family: 'Amethysta', serif;
   color: #606362;
 }
