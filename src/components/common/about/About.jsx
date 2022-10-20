@@ -49,6 +49,7 @@ export default function About() {
                 <Item>
                   <h3>Skills</h3>
                   <DiscreteSlider />
+                  <h6>I am also Bilingual: Spanish and English</h6>
                 </Item>
               </Grid>
             </Grid>
