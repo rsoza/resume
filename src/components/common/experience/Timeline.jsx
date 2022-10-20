@@ -6,9 +6,11 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import WorkIcon from "@mui/icons-material/Work";
 import Typography from "@mui/material/Typography";
+import Diversity3Icon from "@mui/icons-material/Diversity3";
+import StorageIcon from "@mui/icons-material/Storage";
+import DirectionsBoatFilledIcon from "@mui/icons-material/DirectionsBoatFilled";
 import "./Experience.css";
 
 export default function WorkTimeline() {
@@ -43,7 +45,7 @@ export default function WorkTimeline() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot sx={{ color: "#F2E6CE" }} variant="outlined">
-            <WorkOutlineIcon />
+            <DirectionsBoatFilledIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -51,11 +53,9 @@ export default function WorkTimeline() {
           <Typography {...head1}>U.S. COAST GUARD</Typography>
           <Typography {...head2}>FIREMAN</Typography>
           <Typography {...description}>
-            Patrolled islands for unusual incidents and safety hazards as a
-            Boarding Team Member, trained use of 9MM pistol and OC pepper Spray.
-            Purchase procurement liaison for all transaction on base. Qualified
-            watchstander monitoring active communication with vessels underway
-            via VHF-FM radio, skilled to decipher distress calls from the rest.
+            Experienced life on a small boat as a boat crewman helping the
+            community of Crisfield maintain a safe commute through the Tangier
+            Sound. Adapting to my environment became second nature.
           </Typography>
         </TimelineContent>
       </TimelineItem>
@@ -67,7 +67,7 @@ export default function WorkTimeline() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot sx={{ color: "#F2E6CE" }} variant="outlined">
-            <WorkOutlineIcon />
+            <Diversity3Icon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -77,12 +77,9 @@ export default function WorkTimeline() {
             YEOMAN, <br />
             PETTY OFFICER THIRD CLASS
             <Typography {...description}>
-              Certified in personnel management, communications, and computer
-              applications. 40+ hours a week actively on a computer. Completed
-              Apprentice Leadership Program being able to identify stress
-              factors, influence others, and support an environment of respect
-              as a supervisor. Provided customer service to employees regarding
-              performance measurement, appraisal, promotion, and separation.
+              Worked on a team of professionals specializing in administrative
+              services that focuesd on pay having monthly sprints. Maintained
+              reports and prepared 100+ personal records.
             </Typography>
           </Typography>
         </TimelineContent>
@@ -97,7 +94,7 @@ export default function WorkTimeline() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot sx={{ color: "#F2E6CE" }} variant="outlined">
-            <WorkOutlineIcon />
+            <StorageIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
@@ -107,13 +104,11 @@ export default function WorkTimeline() {
             EXECUTION, <br /> STUDENT CONTRACTOR
           </Typography>
           <Typography {...description}>
-            Perform stress and functional tests on arrays and hosts to determine
-            their capabilities under certain tasks. Execute tasks that require
-            the use of Linux (SLES and Redhat) and Windows. Use of repositories
-            to access open-source code for updating firmware and/or correcting
-            scripts.Physically set up and cable configurations of various arrays
-            and servers. Run scripts to challenge the competence of different
-            protocols such as Infiniband, SAS, Ethernet, and Fibre Channel.
+            Run stress daily on a configuration of two Arrays and three Hosts,
+            each having different platforms. Configure servers to the
+            appropriate IP address and DNS. Look for defects by utilizing Linux
+            platforms such as RHEL and SLES to execute tasks that customers are
+            expected to perform.
           </Typography>
         </TimelineContent>
       </TimelineItem>
