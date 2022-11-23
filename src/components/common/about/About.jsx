@@ -25,8 +25,8 @@ export default function About() {
             My name is Rebecca Soza and I am pursuing a B.S. in Computer Science
             at Wichita State University. Although most of my skills are in web
             development, my primary interest is Software Development. This
-            junior year I am focusing on strengthening my skills in python and
-            learning Go language.
+            junior year I am focusing on strengthening my skills in python, C++,
+            and Javascript.
           </p>
 
           <div className="gridContainer">
